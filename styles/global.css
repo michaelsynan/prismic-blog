@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply overflow-x-hidden antialiased;
+}
+
+.dark-mode body, .dark-mode .importantIcon {
+  background-color: #091a28;
+  color: #ebf4f1;
+}
